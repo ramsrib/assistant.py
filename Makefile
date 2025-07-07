@@ -1,8 +1,8 @@
 .PHONY: build run run-env shell dev stop clean logs python
 
 # Variables
-IMAGE_NAME = raspberry-experiments
-CONTAINER_NAME = rpi-experiments
+IMAGE_NAME = assistant.py
+CONTAINER_NAME = assistant.py
 
 # Build the Docker image
 build:

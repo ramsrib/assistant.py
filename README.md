@@ -30,6 +30,15 @@ Voice assistant on Raspberry Pi
    # docker run --rm assistant.py
    ```
 
+3. **Run the application locally**
+
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate
+   pip install -r requirements.txt
+   python3 main.py
+   ```
+
 ## Makefile Commands
 
 | Command | Description |
@@ -49,9 +58,8 @@ Voice assistant on Raspberry Pi
 Create a `.env` file in the project root (copy from `.env.example`):
 
 ```bash
-API_KEY=your_api_key_here
 VAPI_API_KEY=your_vapi_api_key_here
-DAILY_API_KEY=your_daily_api_key_here
+VAPI_ASSISTANT_ID=your_vapi_assistant_id_here
 ```
 
 ## Development
@@ -149,7 +157,3 @@ If you encounter audio device issues on Raspberry Pi:
 ## Contributing
 
 Feel free to submit issues and enhancement requests!
-
-## License
-
-[Your License Here]
