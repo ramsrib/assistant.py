@@ -3,5 +3,6 @@ numpy
 pyaudio
 daily-python
 vapi_server_sdk
-vapi_python
 python-dotenv
+gpiozero
+requests
